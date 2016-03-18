@@ -1,0 +1,142 @@
+/*********** content start ***********/
+#content {
+	width: 940px;
+	margin: 48px auto;
+	overflow: hidden;
+}
+	#content-main {
+		position: relative;
+		float: left;
+		width: 612px;
+		margin-right: 10px;
+	}
+		#content-main > .redline {
+			margin: 0;
+		}
+		#content-main > .title {
+			margin: 15px 0 25px;
+			text-align: left;
+		}
+		#content-main > p {
+			margin-bottom: 20px;
+			line-height: 20px;
+		}
+	#content-right {
+		float: left;
+		width: 318px;
+		background-color: #f3f3f3;
+		border: 3px solid #eaeaea;
+	}
+		#content-right > h4 {
+			margin: 27px 0 19px;
+			text-align: center;
+			font-size: 24px;
+		}
+		#content-right-form {
+			text-align: center;
+		}
+			#content-right-form > input[type='text'], 
+			#content-right-form > input[type='tel'] {
+				display: inline-block;
+				width: 255px;
+				height: 45px;
+				background-color: #fff;
+				border: 1px solid #ececec;
+				border-radius: 3px;
+				padding: 0 18px 0;
+				font-size: 13px;
+				font-style: italic;
+				color: #c0c0c0;
+				margin-bottom: 15px;
+			}
+			#content-right-form > input[type='submit'] {
+				display: inline-block;
+				width: 148px;
+				height: 42px;
+				background-color: #e80510;
+				border: 1px solid #ebdbdb;
+				border-radius: 1px;
+				margin: 15px 0 33px;
+				text-align: center;
+				cursor: pointer;
+				font-size: 16px;
+				font-weight: bold;
+				color: #fff;
+				line-height: 40px;
+			}
+/*********** content end ***********/
+
+/*********** masonry start ***********/
+#wrapper-masonry {
+	background: url("../images/header-background.png") left top repeat;
+	overflow: hidden;
+}
+	#masonry {
+		position: relative;
+		width: 940px;
+		height: 552px;
+		margin: 46px auto 50px;
+	}
+		.brick {
+			position: absolute;
+			cursor: pointer;
+		}
+		.brick:nth-of-type(1) {
+			left: 0px;
+			top: 0px;
+		}
+		.brick:nth-of-type(2) {
+			left: 0px;
+			top: 182px;
+		}
+		.brick:nth-of-type(3) {
+			left: 164px;
+			top: 182px;
+		}
+		.brick:nth-of-type(4) {
+			left: 164px;
+			top: 301px;
+		}
+		.brick:nth-of-type(5) {
+			left: 280px;
+			top: 0px;
+		}
+		.brick:nth-of-type(6) {
+			left: 465px;
+			top: 0px;
+		}
+		.brick:nth-of-type(7) {
+			left: 465px;
+			top: 301px;
+		}
+		.brick:nth-of-type(8) {
+			left: 629px;
+			top: 301px;
+		}
+		.brick:nth-of-type(9) {
+			left: 465px;
+			top: 418px;
+		}
+		.brick:nth-of-type(10) {
+			left: 774px;
+			top: 301px;
+		}
+			.brick > img {
+				display: block;
+			}
+			.brick > span {
+				position: absolute;
+				left: 0;
+				top: 0;
+				display: block;
+				height: 40px;
+				background-color: rgba(55, 55, 55, .8);
+				padding: 0 16px 0 20px;
+				font-size: 16px;
+				color: #fff;
+				line-height: 40px;
+			}
+			.brick:hover > span {
+				background-color: #e4121f;
+			}
+/*********** masonry end ***********/

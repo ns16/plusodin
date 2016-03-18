@@ -1,0 +1,95 @@
+/*********** content start ***********/
+#content {
+	position: relative;
+	width: 940px;
+	margin: 48px auto;
+	overflow: hidden;
+}
+	#content > .title {
+		margin: 15px 0 32px;
+	}
+	#content > h5 {
+		text-align: center;
+		font-size: 24px;
+		color: #e4121f;
+	}
+	.masonry {
+		position: relative;
+		width: 940px;
+		height: 552px;
+		margin: 23px auto 86px;
+	}
+	.masonry:last-of-type {
+		margin-bottom: 23px;
+	}
+		.brick {
+			position: absolute;
+			cursor: pointer;
+		}
+		.brick:nth-of-type(1) {
+			left: 0px;
+			top: 0px;
+		}
+		.brick:nth-of-type(2) {
+			left: 0px;
+			top: 182px;
+		}
+		.brick:nth-of-type(3) {
+			left: 164px;
+			top: 182px;
+		}
+		.brick:nth-of-type(4) {
+			left: 164px;
+			top: 301px;
+		}
+		.brick:nth-of-type(5) {
+			left: 280px;
+			top: 0px;
+		}
+		.brick:nth-of-type(6) {
+			left: 465px;
+			top: 0px;
+		}
+		.brick:nth-of-type(7) {
+			left: 465px;
+			top: 301px;
+		}
+		.brick:nth-of-type(8) {
+			left: 629px;
+			top: 301px;
+		}
+		.brick:nth-of-type(9) {
+			left: 465px;
+			top: 418px;
+		}
+		.brick:nth-of-type(10) {
+			left: 774px;
+			top: 301px;
+		}
+			.brick > img {
+				display: block;
+			}
+			.brick > span {
+				position: absolute;
+				left: 0;
+				top: 0;
+				display: block;
+				height: 40px;
+				background-color: rgba(55, 55, 55, .8);
+				padding: 0 16px 0 20px;
+				font-size: 16px;
+				color: #fff;
+				line-height: 40px;
+			}
+			.brick:hover > span {
+				background-color: #e4121f;
+			}
+		.masonry > .separator {
+			position: absolute;
+			left: 0;
+			bottom: -51px;
+		}
+		.masonry:last-of-type > .separator {
+			display: none;
+		}
+/*********** content end ***********/

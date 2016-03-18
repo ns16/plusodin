@@ -1,0 +1,61 @@
+/*********** content start ***********/
+#content {
+	position: relative;
+	width: 940px;
+	margin: 48px auto;
+	overflow: hidden;
+}
+	#content > .redline {
+		margin: 0;
+	}
+	#content > .title {
+		margin: 15px 0 32px;
+		text-align: left;
+	}
+	.partner {
+		position: relative;
+		display: table;
+		width: 100%;
+		padding: 16px 0 20px;
+	}
+		.partner > div {
+			display: table-cell;
+			vertical-align: top;
+		}
+		.partner-image {
+			width: 213px;
+			padding: 0 0 22px;
+		}
+			.partner-image > img {
+				display: block;
+			}
+		.partner-review {
+			padding: 0px 10px 0 46px;
+			vertical-align: middle !important;
+			line-height: 20px;
+		}
+		.partner-contacts {
+			width: 180px;
+			padding: 36px 0 0 10px;
+			font-size: 18px;
+			font-weight: bold;
+		}
+			.partner-contacts-site {
+				margin-top: 7px;
+			}
+				.partner-contacts > p > img {
+					vertical-align: middle;
+					margin-right: 8px;
+				}
+				.partner-contacts > p > span {
+					vertical-align: middle;
+				}
+		.partner > .separator {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+		.partner:last-of-type > .separator {
+			display: none;
+		}
+/*********** content end ***********/

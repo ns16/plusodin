@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %}{% endblock %}Обучение первой помощи</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,400italic&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	{% block files %}{% endblock %}
+</head>
+<body>
+	<!--========== wrapper start ==========-->
+	<div id="wrapper">
+		<!--========== header start ==========-->
+		{% include "header.html" %}
+		<!--========== header end ==========-->
+		<!--========== container start ==========-->
+		{% block container %}{% endblock %}
+		<!--========== container end ==========-->
+	</div>
+	<!--========== wrapper end ==========-->
+	<!--========== footer start ==========-->
+	{% include "footer.html" %}
+	<!--========== footer end ==========-->
+</body>
+</html>

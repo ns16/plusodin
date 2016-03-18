@@ -1,0 +1,61 @@
+/*********** content start ***********/
+#content {
+	position: relative;
+	width: 940px;
+	margin: 48px auto;
+	overflow: hidden;
+}
+	#content > .redline {
+		margin: 0;
+	}
+	#content > .title {
+		margin: 15px 0 32px;
+		text-align: left;
+	}
+	.student {
+		position: relative;
+		display: table;
+		width: 100%;
+		padding: 16px 0 20px;
+	}
+		.student > div {
+			display: table-cell;
+			vertical-align: top;
+		}
+		.student-image {
+			width: 134px;
+		}
+			.student-image > img {
+				display: block;
+				border-radius: 50%;
+			}
+		.student-review {
+			padding: 0px 10px 0 46px;
+			vertical-align: middle !important;
+			line-height: 20px;
+		}
+		.student-contacts {
+			width: 180px;
+			padding: 36px 0 0 10px;
+			font-size: 18px;
+			font-weight: bold;
+		}
+			.student-contacts-site {
+				margin-top: 7px;
+			}
+				.student-contacts > p > img {
+					vertical-align: middle;
+					margin-right: 8px;
+				}
+				.student-contacts > p > span {
+					vertical-align: middle;
+				}
+		.student > .separator {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+		.student:last-of-type > .separator {
+			display: none;
+		}
+/*********** content end ***********/
